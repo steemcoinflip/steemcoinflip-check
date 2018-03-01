@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.3/seedrandom.min.js"></script>
+</head>
+
+
+<body>
+    <h1>
+        <center>STEEMCOINFLIP GAME CHECKER</center>
+    </h1>
+    <script>
+        var askForSeed = prompt('What is the seed of the game?')
+        var myrng = new Math.seedrandom(askForSeed);
+        var result = alert('The random number generated for this game is: ' + myrng());
+    </script>
+</body>
+
+</html>
